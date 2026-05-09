@@ -9,5 +9,7 @@ BUT,
    user defined data type(class) and use them using the variable(object) but only difference in this is that this data type will behave according to the way in which the user
    wants to make it behave.
 
+   In class by default all are private which means from uotside that class we can not access those class properties from outside the class, but those can be used within that class but from outside the class it is restricted to us,.
+
    
    
