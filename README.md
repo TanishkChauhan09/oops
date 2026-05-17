@@ -36,7 +36,7 @@ BUT,
                                                                same name as the class name
                                                                No return type
                                                                used for initialization of values
-                                                               jo resources mujhe chahiye unko constructor ke through phle hi maang loon
+                                                   IMP use : jo resources mujhe chahiye unko constructor ke through phle hi maang loon
                                                                   jaise ki file open kraate hai user se phle agar user wo nhi krega tbtk hmm age execution krenge hi nhi aise hi real world me agr phle hi mujhe pta ho ke kya resoucres use honge to iss se time and cost dono save honge
                                                                |
                                                                ye automatically bn jata hai at the time of class creation bss dikhta nhi hai aise constructor ko hmm default constructor kahte hai and hmm apne khud ki side se bhi constructor bna skte h
@@ -56,13 +56,46 @@ BUT,
                   |
                     inline constructor(btana pdta hai inline likhkr/chahe mt likho) : inline student(string a,int b) : name(a),age(b){  }
                   |  
-                           
-
-                                                         
-                                                        
-                                                        
-
-                                                        
+                  copy constructor : pass by reference otherwise passing by value can call the recursive stack overflow
+                  |
+                   Difference Between Instance Function and Static Function
+                       Instance Function(also called member functions)	    Static Function
+                                 Belongs to object	                         Belongs to class
+                                 Needs object to call	                    Can call with class name
+                                   Has this pointer	                       No this pointer
+                               Can access non-static members              Cannot directly access non-static members
+                   |
+                    Static function directly non-static members/functions ko access nahi kar sakta, because static function ke paas                                   this pointer nahi hota.
+                              Lekin agar tum object bana do (ya object pass karo), tab static function object ke through non-static function                                    access kar sakta hai.                         
+                                                        `
+                          #include <iostream>
+                           using namespace std;
+                           class Test {
+                           public:  
+                               void display() {
+                                   cout << "Non-static function";
+                               }
+                               static void show() {
+                                   Test obj;      // object created
+                             |    
+                                   obj.display(); // accessing non-static function
+                               }
+                           };
+                           int main() {
+                               Test::show();
+                           }                              
+                      |
+                      Destructor : it is a instance member function that is invoked automatically whenever an object is going to be destroyed
+                                  |
+                                     it is the last function thst is going to be calledbefore the object is destroyed.
+                                  |
+                                     it does not delete the object but it helps in releasing the dynamically created memory by writing delete                                          keyword in it , for ex: delete balance;
+                                  |
+                                     both constructor and destructor will be in the public format
+                                  |
+                                   constructor me jo phle object bnaya hai usko constructor phle call hoga sequentially in the order ,  baaki jo                                     object sbse baad me call hoga uska destructor phle call hoga means reverse order me
+                                  |
+                                    
 
    
 
