@@ -25,7 +25,7 @@ class Student{
 
     //  inline constructor
     // inline Student(string a, int b, int c): name(a), age(b), amount(c){
-    //     cout<<"Parameterized Constructor called."<<endl;  emty bhi rkh skte hai beacuse out main motive to intitalise the the data is completed
+    //     cout<<"Parameterized Constructor called."<<endl;  empty bhi rkh skte hai beacuse our main motive to initialise the the data is completed
     // }
 
     // Student(string name, int age, int amount): name(name), age(age), amount(amount){
@@ -38,7 +38,7 @@ class Student{
         this->amount = amount;
 
         cout<<"Constructor called."<<endl;
-        
+
     }
 
 
