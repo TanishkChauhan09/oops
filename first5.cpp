@@ -23,6 +23,13 @@ class Student{
     //     cout<<"Parameterized Constructor called."<<endl;
     // }
 
+    // Constructor overloading of parameterised constructor
+    // Student(string s,int age){
+    //     name = s;
+    //     this->age = age;  // this pointer is used to resolve the ambiguity between the parameter and the class member variable
+    //     cout<<"Parameterized Constructor called."<<endl;
+    // }
+
     //  inline constructor
     // inline Student(string a, int b, int c): name(a), age(b), amount(c){
     //     cout<<"Parameterized Constructor called."<<endl;  empty bhi rkh skte hai beacuse our main motive to initialise the the data is completed
