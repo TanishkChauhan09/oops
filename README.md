@@ -30,7 +30,32 @@ BUT,
                                              };
                                                sizeof(B) can still be 4 (or system dependent), not 5, because of this optimization.
                         => SIZE OF CLASS :- see this topic from the video(lecture1) there is taught in a vey simple way, writing so much stuff, here can create confusion and must discuss in INTERVIEW about the sequence of alignment of attributes in a class which can effect the memory , so a great way is to move in a descending order firstly of a larger size data type then lesser data type, this helps OS to read data from m/y in a efficient way that is why we compromises with the extra space in padding, so there is a concept of padding and alignment.
-                        
+|
+|
+                        now the next part is the constructor : it's a function that is automatically invoked at the time of object creation 
+                                                               same name as the class name
+                                                               No return type
+                                                               used for initialization of values
+                                                               ye automatically bn jata hai at the time of class creation bss dikhta nhi hai aise constructor ko hmm default constructor kahte hai and hmm apne khud ki side se bhi constructor bna skte h
+                                                            cosntructore overloading can be also possible 
+                                                  IMPORTANT : class ke constructor ka this keyword mera class ke address ko store krke rkhta hai jisme me agar mujhe koi cheej jo object se access kr skta tha whi same me (*this).attribute_name // (*obj).name("Rohan") ,  se bhi krskta hoob wrna this->attribute_name // obj->name("ROhan") ,  aise bhi krskta hoon, jo cheej me object se access kr skta hoon whi m , this se bhi access krskta hoon
+              Important:
+                         Class ka koi alag memory address nahi hota
+                         Memory objects ko milti hai
+                         Isliye this hamesha object ko refer karta hai, class ko nahi
+              Short line me:
+                         this = current object ka hidden pointer/reference.
+                         |
+                  example: this → jis object ka constructor call hua hai us object ka address hota hai.
+                           Student s1(20); => this == &s1 iss se samjh ja
+                  |
+                    i can make default and parameterised constructor(jo paramters le) both together in a class
+                  |
+                    inline constructor(btana pdta hai inline likhkr) : inline student(string a,int b) : name(a),age(b){  }
+                  |  
+                           
+
+                                                         
                                                         
                                                         
 
