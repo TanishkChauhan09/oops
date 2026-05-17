@@ -95,7 +95,10 @@ BUT,
                                   |
                                    constructor me jo phle object bnaya hai usko constructor phle call hoga sequentially in the order ,  baaki jo                                     object sbse baad me call hoga uska destructor phle call hoga means reverse order me
                                   |
-                                    
+                                    int age = new int; // wrong way new keyword k saath point type ka variable lena hota hai
+                                    int *age = new int; // correct way
+                                  |
+                                       
 
    
 
