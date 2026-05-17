@@ -51,7 +51,7 @@ BUT,
                   |
                     i can make default and parameterised constructor(jo paramters le) both together in a class
                   |
-                    inline constructor(btana pdta hai inline likhkr) : inline student(string a,int b) : name(a),age(b){  }
+                    inline constructor(btana pdta hai inline likhkr/chahe mt likho) : inline student(string a,int b) : name(a),age(b){  }
                   |  
                            
 
