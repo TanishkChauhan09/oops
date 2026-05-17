@@ -36,6 +36,9 @@ BUT,
                                                                same name as the class name
                                                                No return type
                                                                used for initialization of values
+                                                               jo resources mujhe chahiye unko constructor ke through phle hi maang loon
+                                                                  jaise ki file open kraate hai user se phle agar user wo nhi krega tbtk hmm age execution krenge hi nhi aise hi real world me agr phle hi mujhe pta ho ke kya resoucres use honge to iss se time and cost dono save honge
+                                                               |
                                                                ye automatically bn jata hai at the time of class creation bss dikhta nhi hai aise constructor ko hmm default constructor kahte hai and hmm apne khud ki side se bhi constructor bna skte h
                                                             cosntructore overloading can be also possible 
                                                   IMPORTANT : class ke constructor ka this keyword mera class ke address ko store krke rkhta hai jisme me agar mujhe koi cheej jo object se access kr skta tha whi same me (*this).attribute_name // (*obj).name("Rohan") ,  se bhi krskta hoob wrna this->attribute_name // obj->name("ROhan") ,  aise bhi krskta hoon, jo cheej me object se access kr skta hoon whi m , this se bhi access krskta hoon
