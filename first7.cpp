@@ -25,4 +25,10 @@ int main()
 {
     Student s("Rohan",20);
     Student s2("Sohan",21);
+
+    // output
+    // Constructor called for Rohan
+    // Constructor called for Sohan
+    // Destructor called for Sohan
+    // Destructor called for Rohan
 }
