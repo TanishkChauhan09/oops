@@ -103,6 +103,8 @@ BUT,
                                    so for that we can make them of static type , rela life scenerios for static data member where it can help is :
                                    to get to know how many total number of customer had opened their account in the bank every time after                                            creation of the object of the customer class we will increase the count of total customers in the custructor                                      also to get to know how much total money bank holds.
                               to acces the static member: can not dirstly access static data memeber with the help of the object of class but for this i have to use the class name and scope resolution operator(::)  ( return_type_of_static_data_member class_name :: static_data_member_name )
+             | 
+             static data members are the attribute of the class and they belong to the class: which means static data members are created at the               time of class creation else other non-static data members are created at the time of object creation.
                               |
                               |
                               
