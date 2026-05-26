@@ -98,7 +98,14 @@ BUT,
                                     int age = new int; // wrong way new keyword k saath point type ka variable lena hota hai
                                     int *age = new int; // correct way
                                   |
-                                       
+                       Static Data Member:-
+                                   over the creation of the new objects if we want that all those share the same data member, functions, methods
+                                   so for that we can make them of static type , rela life scenerios for static data member where it can help is :
+                                   to get to know how many total number of customer had opened their account in the bank every time after                                            creation of the object of the customer class we will increase the count of total customers in the custructor                                      also to get to know how much total money bank holds.
+                              to acces the static member: can not dirstly access static data memeber with the help of the object of class but for this i have to use the class name and scope resolution operator(::)  ( return_type_of_static_data_member class_name :: static_data_member_name )
+                              |
+                              |
+                              
 
    
 
