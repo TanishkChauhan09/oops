@@ -105,6 +105,9 @@ BUT,
                               to acces the static member: can not dirstly access static data memeber with the help of the object of class but for this i have to use the class name and scope resolution operator(::)  ( return_type_of_static_data_member class_name :: static_data_member_name )
              | 
              static data members are the attribute of the class and they belong to the class: which means static data members are created at the               time of class creation else other non-static data members are created at the time of object creation.
+             |
+             similarly mere static member function bhi hote hai which can have the acces to make changes and use static data members but can not use non-static data member because non statc belong to the object but static(data member/ function) belongs to the class , supposae age hmne static data member ko public ki jagah private m bnaya hai ,then i will not be able to access this static data member even with the help of class name and scope resolution operator that's we have the static member function which will help us to access the private static data member 
+and in this case static data member function should be in public            
                               |
                               |
                               
