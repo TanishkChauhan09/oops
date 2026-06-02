@@ -140,6 +140,7 @@ and in this case static data member function should be in public
                                   |
                                   |
                                    INHERITANCE & ACCESS MODIFIER
+                                   |
                                        The capability of a class to derive property & characteristic from another class.
                                        |
                                        BASE CLASS                      DERIVED CLASS
