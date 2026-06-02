@@ -125,7 +125,7 @@ and in this case static data member function should be in public
                                        5. It helps to control the modification of our data members.
                                    |
                                    | Abstraction :
-                                     Displaying only essential information and hiding the details, 
+                                     Displaying only essential information and hiding the details, ( or principle of least knowledge)
                                    |
                                     Advantages of Data Abstraction
                                        1.) Helps the user to avoid writing the low-level code
