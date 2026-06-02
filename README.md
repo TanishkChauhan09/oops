@@ -143,6 +143,15 @@ and in this case static data member function should be in public
                                    |
                                        The capability of a class to derive property & characteristic from another class.
                                        |
+                                       |
+                                                   outside the class                within the class                   derived class
+                                          public          YES                           YES                                  YES
+                                          protected       NO                            YES                                  YES
+                                          private         NO                            YES                                   NO
+                                       |
+                                       |
+                                       |
+                                       |
                                        BASE CLASS                      DERIVED CLASS
                                     1.) public                          public
                                         protected ------public-------   protected
