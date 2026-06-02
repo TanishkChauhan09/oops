@@ -13,7 +13,7 @@ class Human{
     //     this->age = age;
     //  }
 
-    Human(){}
+    Human(){}  // default constructor
 
      void mtd_parent(){
         cout<<"This is parent class method"<<endl;
@@ -37,7 +37,7 @@ class Student:public Human{
     //     this->school = school;
     // }
 
-    // ye bhi kr skte hai
+    // ye bhi kr skte hai : but it needed default parent constructor
     Student(string name,int age,string grade,int fees,string school){
         this->name = name;
         this->age = age;
@@ -63,7 +63,7 @@ int main(){
 
     Student s1("Rohan",20,"A",5000,"ABC School");
     s1.display();
-    s1.mtd_parent();
+    s1.mtd_parent(); // this method is in the parent class but i am calling it using the child class object this is possible because of the inheritance
 
     return 0;
 
