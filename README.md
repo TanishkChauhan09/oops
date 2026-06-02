@@ -194,11 +194,11 @@ and in this case static data member function should be in public
                            |
       -------------------- |-------------------------------------------------------
       |                                                                           |
-Compile time polumorphism(Static Poly.)                                Runtime Polymorphism (Dynamic Polymorphism) 
-    /                      \                                                            |
-   /                        \                                                           |
- function overloading       Operator overloading                                    Virtual function (Method Overriding)
-       
+Compile time polumorphism(Static Poly.)                                   Runtime Polymorphism (Dynamic Polymorphism) 
+    /                             \                                                            |
+   /                               \                                                           |
+ function(Method) overloading       Operator overloading                             Virtual function (Method Overriding)
+          
                                           
                  
                         
