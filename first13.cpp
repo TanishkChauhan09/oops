@@ -12,7 +12,7 @@ using namespace std;
 class Person{
     protected:
        string name;
-    // default constructor khuda banayega ,wrna already class me rhta bhi hai agr koi aur constructor nhi bnaya hai
+    // default constructor khud banayenge ,wrna already class me rhta bhi hai agr koi aur constructor nhi bnaya hai
     Person(){}
 
     public:
