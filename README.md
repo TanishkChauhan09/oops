@@ -168,6 +168,7 @@ and in this case static data member function should be in public
                                      |
                                      |
                                      |
+                                     to use the base class property in derived class, base class must be having the default constructor 
                                      
                                         
                                     
