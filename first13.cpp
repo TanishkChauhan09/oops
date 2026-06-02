@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// Multiple inheritance
+// Multi-level inheritance
 
 //  class A     Grandparent
 //   |              |
