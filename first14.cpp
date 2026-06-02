@@ -44,7 +44,7 @@ class Gamer{  // Base class 3
     }
 };
  
-//  single base class is inhriting multiple base classes and creating a new class called person which is inheriting from all three base classes
+//  single child class is inhriting multiple base classes and creating a new class called person which is inheriting from all three base classes
 class Person: public Engineer, public YouTuber, public Gamer{
 
     private:
