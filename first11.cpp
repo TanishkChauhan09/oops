@@ -1,44 +1,71 @@
-#include<iostream>
-#include<math.h> // use math.h OR use cmath header file for pow 
+#include<bits/stdc++.h>
 using namespace std;
 
-class A{
+class Teacher{
+    public:
+        string name;
+        int age;
+        int salary;
+        string subject;
+
+        public:
+
+        Teacher(string name,int age,int salary,string subject)
+        {
+            this->name = name;
+            this->age = age;
+            this->salary = salary;
+            this->subject = subject;
+        }
+
+        Teacher(){}
+        
+        void set_name(string n)
+        {
+            name = n;
+        }
+
+        void set_salary(int s)
+        {
+            salary = s;
+        }
+
+        void set_subject(string sub)
+        {
+            subject = sub;
+        }
+
+        void display(){
+            cout<< "Teacher's information is: "<<name<<" "<<age<<" "<<salary<<" "<<subject<<endl;
+        }
+};
+
+ class Student: public Teacher{
 
     private:
-    int account_no;
-    int balance;
-    public:
-    A(int a,int b){
-        account_no = a;
-        balance = b;
-    }
+      int marks;
+      string grade;
+    
+    public: 
+    
+     Student(string name,int age,int marks,string grade)
+     {
+        this->name = name;
+        this->age = age;
+        this->marks = marks;
+        this->grade = grade;
+     }
 
-    void updatebalance(int amount){
-        
-        if(amount<0){
-            cout<<"Invalid amount"<<endl;
-        }
-        // here any organization can apply some logics to reduce customer money and customer will not be able
-        // to know how some rupees from his/her account reduced
-        balance+=amount;
-    }
-    void display(){
-        cout<<"Account no: "<<account_no<<" Balance: "<<balance<<endl;
-    }
-};
+     void display(){
+        cout<< "Student's information is: "<<name<<" "<<age<<" "<<marks<<" "<<grade<<endl;
+     }
+
+ };
 
 int main(){
 
-    A *a1 = new A(123,1000);
-    a1->display();
-    a1->updatebalance(-500);
-    a1->display();
-    a1->updatebalance(700);
-    a1->display();
-    
-    // internal implemetation is not known to us for this and only using it
-      cout<< pow(3,2)<<endl; // here we are using pow function but we don't know how it is implemented internally
-
-    delete a1;
-
+    Teacher *t = new Teacher("Rajveer", 35, 50000, "Mathematics");
+    t->display();
+    Student *s = new Student("Rohan", 20, 85, "A");
+    s->display();
 }
