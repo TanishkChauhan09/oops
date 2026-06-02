@@ -175,9 +175,19 @@ and in this case static data member function should be in public
               -> jb bhi method overriding krte hai toh abse phle jiske object ne call kiye usme dekhta hai aur agr usme nhi milta tb parent me ya                  fir jisko bhi inherit kr rha hai usme jaake dekega
               |
               -> multiple inheritance me jis parent ki property phle inherit hogi uska constructor phle call hoga
-              
-                                     
-                                        
+              |
+              ->Multipath inheritance : jb kisi ek class pr multiple path se , same property pahuch jaaye 
+                      ---------------> class A <------------------
+                      |                                          |
+                      |                                          |
+                     class B                                  class c                         
+                        ^                                       ^
+                        |                                       |
+                        |                                       |
+                        ------------- class D -------------------           jaise isme class D ke paar Class B and C dono se class A ki property aa jayengi toh decide kaise krenge , toh uske liye hmm :public virtual krke inherit krayenge class A ko , class B and class C me
+    |
+                 
+                        
                                     
                                               
                                        
