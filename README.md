@@ -174,6 +174,8 @@ and in this case static data member function should be in public
               |
               -> jb bhi method overriding krte hai toh abse phle jiske object ne call kiye usme dekhta hai aur agr usme nhi milta tb parent me ya                  fir jisko bhi inherit kr rha hai usme jaake dekega
               |
+              -> multiple inheritance me jis parent ki property phle inherit hogi uska constructor phle call hoga
+              
                                      
                                         
                                     
