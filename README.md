@@ -168,7 +168,11 @@ and in this case static data member function should be in public
                                      |
                                      |
                                      |
-                                     to use the base class property in derived class, base class must be having the default constructor 
+              -> to use the base class property in derived class, base class must be having the default constructor, if base class ke constructor                  se data members ko set ke rhe ho toh , kyuki jo variables child class me nhi milte tb wo parent class ke constructor ke through                  ( jo variable hmne child class ke constructor me paas kiye hai ) set hote hai, aur waise bhi child se phle parent birth lete hai,                 toh ya toh parent me wo variables jo parent ke child use kr rha hai sirf unhi ke liye alag se constructor dedicatidely bnao ,ya                   fir default constructor bnao
+              |
+              -> inheritance me jb child class ka object bnate hai toh sbse phle parent class ka constructor call hota hai then child class ka                     constructor call hoga using the object created of child class earlier and destructor k liye: jiska phle constructor call hua                      uska destructor baad me call hoga aur jiska constructor baad me call hua uska ddestructor phle chalega iskp aise bhi samajh skte                  hai k parent child me se phle kiska birth hua hoga toh aise hi parent class phle chalegi then child class
+              |
+              -> 
                                      
                                         
                                     
