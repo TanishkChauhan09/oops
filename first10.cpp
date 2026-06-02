@@ -1,5 +1,5 @@
 #include<iostream>
-#include<math.h> // use math.h OR use cmath header file for pow function
+#include<math.h> // use math.h OR use cmath header file for pow 
 using namespace std;
 
 class A{
