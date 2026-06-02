@@ -63,7 +63,8 @@ int main(){
 
     Student s1("Rohan",20,"A",5000,"ABC School");
     s1.display();
-    s1.mtd_parent(); // this method is in the parent class but i am calling it using the child class object this is possible because of the inheritance
+    s1.mtd_parent(); // this method is in the parent class but i am calling it using the child class object this is possible because of the inheritance beacuse initially
+                    // child class ke object se method call kiya toh sbse phle child class me dekhega koi display hai toh nhi agr hoga toh usi ka call hojaata pr usme nhi tha toh , tb parent class me jake dekhega then usko wo parent class me milgya hai so ab parent wala method call hoga
 
     return 0;
 
