@@ -184,7 +184,7 @@ and in this case static data member function should be in public
                         ^                                       ^
                         |                                       |
                         |                                       |
-                        ------------- class D -------------------           jaise isme class D ke paar Class B and C dono se class A ki property aa jayengi toh decide kaise krenge , toh uske liye hmm :public virtual krke inherit krayenge class A ko , class B and class C me
+                        ------------- class D -------------------           jaise isme class D ke paar Class B and C dono se class A ki property aa jayengi toh decide kaise krenge , toh uske liye hmm :public virtual krke inherit krayenge class A ko , class B and class C me, wrna agr ye nhi krta hoon toh ambiguous error aayegi
     |
                  
                         
