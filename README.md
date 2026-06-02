@@ -31,6 +31,7 @@ BUT,
                                                sizeof(B) can still be 4 (or system dependent), not 5, because of this optimization.
                         => SIZE OF CLASS :- see this topic from the video(lecture1) there is taught in a vey simple way, writing so much stuff, here can create confusion and must discuss in INTERVIEW about the sequence of alignment of attributes in a class which can effect the memory , so a great way is to move in a descending order firstly of a larger size data type then lesser data type, this helps OS to read data from m/y in a efficient way that is why we compromises with the extra space in padding, so there is a concept of padding and alignment.
 |
+  in making dynamic object we access data members/methods using the -> , but on creating the static object we use (.) dot operator
 |
                         now the next part is the constructor : it's a function that is automatically invoked at the time of object creation 
                                                                same name as the class name
