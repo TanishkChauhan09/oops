@@ -45,7 +45,7 @@ class Gamer{  // Base class 3
 };
  
 //  single child class is inhriting multiple base classes and creating a new class called person which is inheriting from all three base classes
-class Person: public Engineer, public YouTuber, public Gamer{
+class Person: public Engineer, public YouTuber, public Gamer{  // jis parent ki property phle inherit ho rhi hai , usi ka constructor phle call hoga fir baaki ke parent ke constructor jaise jaise unki property bhi inherit hongi then lass me child class ka constructor call hoga , kyuki phle parent ne birth liye(toh parent class chalengi phle) then chil ne birt liya unke baad me(toh fir chil class chalegi parent ke baad)
 
     private:
     string name;
@@ -85,4 +85,3 @@ int main(){
                 // I am specialized in Computer Science
                 // My channel name is  Techview 
                 // I play Valorant
-_____________________________________________________
