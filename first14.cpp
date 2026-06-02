@@ -79,3 +79,10 @@ int main(){
 
     return 0;
 }
+
+// output is : 
+                // My name is Rohan
+                // I am specialized in Computer Science
+                // My channel name is  Techview 
+                // I play Valorant
+_____________________________________________________
