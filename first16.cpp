@@ -3,7 +3,7 @@ using namespace std;
 
 // Hybrid inheritance : combination of any two or more types of inheritance together
 
-//     Here i have use the multiple inheritance and hierarchical inheritance both together
+//     Here i have used the multiple inheritance and hierarchical inheritance both together
 //             
 //       Male      Student       Female
 //         \       /     \         /    
