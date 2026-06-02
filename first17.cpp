@@ -89,7 +89,7 @@ class Human{
 
 };
 
-class Engineer : public virtual Human{  
+class Engineer : public virtual Human{   // intermediate classes me VIRTUAL keyword se inherit krayenge
     protected:
     string specialization;
 
@@ -100,7 +100,7 @@ class Engineer : public virtual Human{
     }
 };
 
-class YouTuber : public virtual Human{  // Base class 2
+class YouTuber : public virtual Human{   // intermediate classes me VIRTUAL keyword se inherit krayenge
 
     protected:
     string channel_name;
@@ -148,3 +148,9 @@ int main(){
 
     return 0;
 }
+
+// Output is:
+                // My name is: Rohan
+                // I am specialized in Computer Science
+                // My channel name is  Techview 
+                // My salary is 9900000
