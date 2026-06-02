@@ -109,9 +109,61 @@ BUT,
              similarly mere static member function bhi hote hai which can have the acces to make changes and use static data members but can not use non-static data member because non statc belong to the object but static(data member/ function) belongs to the class , supposae age hmne static data member ko public ki jagah private m bnaya hai ,then i will not be able to access this static data member even with the help of class name and scope resolution operator that's we have the static member function which will help us to access the private static data member 
 and in this case static data member function should be in public            
                               |
+                              | Encapsulation :- 
+                              Wrapping up the data and information in a single unit while controlling access to them , i.e. data hiding but data hiding does not mean to protect from hacking , no it is not like that , it is to protect from the accidental change of data ,
                               |
-                              
-
+                              Features of Encapsulation
+                                    Below are the features of encapsulation:
+                                       1. We can not access any function from the class directly. We need an
+                                           object to access that function that is using the member variables of that class.
+                                       2. The function which we are making inside the class must use only
+                                            member variables, only then it is called encapsulation.
+                                       3. If we don't make a function inside the class which is using the member
+                                            variable of the class then we don't call it encapsulation.("Agar hum kisi class ke member variable ka use karne wale function ko usi class ke andar define nahi karte, to use encapsulation nahi kaha jata.")
+                                       4. Encapsulation improves readability, maintainability, and security by
+                                            grouping data and methods together.
+                                       5. It helps to control the modification of our data members.
+                                   |
+                                   | Abstraction :
+                                     Displaying only essential information and hiding the details, 
+                                   |
+                                    Advantages of Data Abstraction
+                                       1.) Helps the user to avoid writing the low-level code
+                                       2.) Avoids code duplication and increases reusability.
+                                       3.) Can change the internal implementation of the class independently
+                                            without affecting the user.
+                                       4.) Helps to increase the security of an application or program as only
+                                             important details are provided to the user.
+                                       5.) It reduces the complexity as well as the redundancy of the code,
+                                              therefore increasing the readability.
+                                  |
+                                  |
+                                   INHERITANCE & ACCESS MODIFIER
+                                       The capability of a class to derive property & characteristic from another class.
+                                       |
+                                       BASE CLASS                      DERIVED CLASS
+                                    1.) public                          public
+                                        protected ------public-------   protected
+                                        private                         not accessible
+                                       |
+                                    2.) public                          protected
+                                        protected -------protected----- protected
+                                        private                         not accessible
+                                       |
+                                    3.) public                        private
+                                        protected ------private------ private
+                                        private                       not accessible
+                                     |
+                                     |
+                                     |
+                                     |
+                                     
+                                        
+                                    
+                                              
+                                       
+                                     
+                                   
    
 
    
