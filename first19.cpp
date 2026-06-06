@@ -18,7 +18,8 @@ class Complex{
         cout<<real<<" +i"<<img;
     }
 
-    Complex operator +(Complex &c)
+    // so, from this we are returning of the Complex(user defined data type) type value so we have to make this type of return-type of function
+    Complex operator +(Complex &c) // we have to use the operator keyword for operator overriding
     {
         Complex ans; // in this object creeation i am not giving the constructor , but the class demanded so for this we will make a default constructor
         
