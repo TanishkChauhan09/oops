@@ -197,7 +197,18 @@ and in this case static data member function should be in public
 Compile time polumorphism(Static Poly.)                                   Runtime Polymorphism (Dynamic Polymorphism) 
     /                             \                                                            |
    /                               \                                                           |
- function(Method) overloading       Operator overloading                             Virtual function (Method Overriding)
+ function(Method) overloading       Operator overloading                             Virtual function (Method Overriding)    
+                                                                                                                                      |
+                                                                                                                                      |
+                                                                                                                                      |
+                                                                                                                                      |
+                                                                                                                                      |
+ FUNCTION OVERLOADING : When there are multiple functions with the same name but different parameters, then the functions are said to be                                  overloaded hence this is known as Function Overloading.                                                                                           Functions can be overloaded by changing the number of arguments or/and changing the type of arguments.   
+ |
+ |
+ |
+ 
+
           
                                           
                  
