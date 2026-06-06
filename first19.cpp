@@ -25,7 +25,7 @@ class Complex{
         // c real,img is private but still accessing bacuse same class ke object ko parameter me pass krke we can use its variables in the same class as well
 
         ans.real = real + c.real; // real will be of c1
-        ans.img = img + c.img;  // img will also be of c1 that can be directly accesses
+        ans.img = img + c.img;  // img will also be of c1 that can be access directly as c1 is something who is calling the function
     
         return ans;
     }
