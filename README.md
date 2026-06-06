@@ -203,7 +203,8 @@ Compile time polumorphism(Static Poly.)                                   Runtim
                                                                                                                                       |
                                                                                                                                       |
                                                                                                                                       |
- FUNCTION OVERLOADING : When there are multiple functions with the same name but different parameters, then the functions are said to be                                  overloaded hence this is known as Function Overloading.                                                                                           Functions can be overloaded by changing the number of arguments or/and changing the type of arguments.   
+ FUNCTION OVERLOADING : When there are multiple functions with the same name but different parameters, then the functions are said to be                                  overloaded hence this is known as Function Overloading.                                                                                           Functions can be overloaded by changing the number of arguments or/and changing the type of arguments. 
+         In compile time .compiler get to know which function needs to call based on the number of arguments and the type of arguments, that's why we keep it in the compile time polymorphism.
  |
  |
  |
