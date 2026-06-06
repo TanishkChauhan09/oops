@@ -208,6 +208,8 @@ Compile time polumorphism(Static Poly.)                                   Runtim
  |
  |
  |
+  operator overloading : jaise '+' operator hota hai ab agr default datatype ke liye integer pr '+' lgaya toh dono integer ko add krdega aur  
+                        aise hi agar do string me '+' lgata hoon to dono hi attach hojayengi , pr agar me do complex number fo add krna chahta hoon aur do baar maine object create kiye and ab age in objects pr '+' operator lgau toh wo dono complex number add nhi honge kyuki wo user defined datatypes hai so ab hmme operator overloading krni hogi (look at 30:00)
  
 
           
