@@ -267,6 +267,42 @@ int main(){
        6. A class may havea virtual destructor but it cannot have a virtual constructor.
 
  Note: If we have created a virtual function in the base class and it is being overridden in the derived class then we don't need a virtual keyword in the derived class, functions are automatically considered virtual functions in the derived class.
+ |
+ |
+ |
+           EXCEPTION HANDLING :
+             An Exception is an unexpected problem that arises during execution of a program And our prograM terminate suddenly with some                      error/issues.
+             TRY : It represent a block of code that may through a exception placed inside the try block
+             CATCH : It represent a block of code that is executed when a particular exception is thrown from the try block
+             through : An Exception in C++ can be thrown using the throw keyword.
+         |
+         |
+         |
+               -------------------- Throw point: <--------------------|
+              |                   function that causes                |
+ throw point  |                      an exception                     |
+throw         |                                                       |
+exception     |                                                       |
+to catch      |                         try:                          |
+ block        |                    Invokes a function that ------------ when execption arises in this block this invokes that function
+              |                   contains an exception
+              |
+              |
+              |
+              |------------------> Catch block:
+                                Catch and handled the
+                                    exception
+
+|
+|
+|
+|
+|
+    
+
+                              
+
+             
           
                                           
                  
