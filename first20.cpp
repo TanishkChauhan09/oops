@@ -26,3 +26,13 @@ int main(){
  
 }
 
+//  now if we want ke jo p hai wo dog class ke object ki memory runtime pr assign kraayega toh 
+// isiliye hmm compile time pr p me jo object tha uska function call rokna tha , isiliye hmm 
+// Animal ke method/function ko virtual bna denge toh ab jb p->sound() se Animal ke function pr gya toh 
+// jaise hi usne virtual dekha wo samajh jayega ke runtime pr function ka call krana hai
+// ab jo second statement compile time pr runtime ke liye rhne di thi , jb wo runtime pr call
+// krega tb tk usme dog class ka object ja chuka hoga isiliye fir dog ka sound method call hojayega
+
+// phle runtime pr dog class ka object assign hua tb function call hua toh dos's sound print hoga
+// ab agr phle function call kiya fir baad me dog's class ka object store kraaya toh animal's sound print hoga , it's a logical thing
+
