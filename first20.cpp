@@ -36,3 +36,36 @@ int main(){
 // phle runtime pr dog class ka object assign hua tb function call hua toh dos's sound print hoga
 // ab agr phle function call kiya fir baad me dog's class ka object store kraaya toh animal's sound print hoga , it's a logical thing
 
+
+
+
+
+
+// important code part 
+class Animal{
+    public:
+
+    void sound(){
+        cout<<"Animal's sound"<<endl;
+    }
+
+};
+
+class dog : public Animal{
+
+    public:
+    void sound(){
+      cout<<"Dog's sound"<<endl;
+    }
+    void walk(){
+        cout<<"Dog is walking"<<endl;
+    }
+};
+
+int main(){
+
+    Animal *p;  
+    p = new dog(); 
+    p->walk();     // at compile time when this method will call ,compile time pr animal ka object ki wajah se usi class me walk method dekhega
+                   // jo ussse nhi milega so isiliye ye error de rha hai
+}
