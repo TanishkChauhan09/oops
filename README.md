@@ -249,6 +249,8 @@ int main(){
 // ab agr phle function call kiya fir baad me dog's class ka object store kraaya toh animal's sound print hoga , it's a logical thing
 |
 |
+  PARENT CLASS POINTER CAN STORE CHILD CLASS OBJECT
+   THIS IS done to save from the complexity for writing if else condition to check which object is give suppose dog and cat dono animal class ko      inherit kr rhi hai, ab user koi bhi object de skta hai chahe dog ka ya cat toh fir mujhe condition lgaake check krna pdega ke user ne kiska       object diya so isi se bchne ke liye direct animal type ka ek vector bna lenge and usme push krte ehenge jo bhi objet user dega ab directly        usme se ek ek krke object lekr uske method call krdenge
 |
 |
 |
