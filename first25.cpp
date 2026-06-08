@@ -23,6 +23,10 @@ int main(){
     {
         cout<<"Error: "<<e.what()<<endl;
     }
+    catch(...)
+    {
+        cout<<"Error occured"<<endl;
+    }
 }
 
 // Output is: 
@@ -35,3 +39,12 @@ int main(){
 
 
 //  we can also write multiple catch block together to handle different types of error bacuse try me se kisi bhi type ki error throw hoskti hai
+
+// and at last we can also write default catch block(...){ "Error occured"};
+
+
+
+
+
+
+
