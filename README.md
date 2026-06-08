@@ -298,6 +298,29 @@ to catch      |                         try:                          |
 |
 |
 |
+       std: exception ->(Parent class)
+       |
+       |--std: bad_alloc
+       |
+       |--std: bad_typeid
+       |
+       |--std: bad_cast
+       |
+       |--std: bad_exception
+       |
+       |--std: logic_failure ------ domain_error, length_error, out_of_range, invalid_argument
+       |
+       |--std: runtime_error   -------|-- std: overflow_error
+                                      |-- std: underflow_error
+                                      |-- std: range_error
+|
+|
+|
+|
+|
+|
+
+                                      
     
 
                               
