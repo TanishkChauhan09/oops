@@ -272,9 +272,9 @@ int main(){
  |
            EXCEPTION HANDLING :
              An Exception is an unexpected problem that arises during execution of a program And our prograM terminate suddenly with some                      error/issues.
-             TRY : It represent a block of code that may through a exception placed inside the try block
-             CATCH : It represent a block of code that is executed when a particular exception is thrown from the try block
-             throw : An Exception in C++ can be thrown using the throw keyword.
+             try : It represent a block of code that may through a exception placed inside the try block
+             catch() : It represent a block of code that is executed when a particular exception is thrown from the try block
+             throw : An Exception in C++ can be thrown using the throw keyword from the try block.
          |
          |
          |
