@@ -382,7 +382,7 @@ to catch      |                         try:                          |
       STEP 5-Closing a file.
 |
 |
-  ios , i istream then iftream(input file stream to take the file from secondary memory to RAM to make updation on the file) , o for ostream then ofstream(output file stream which is used to push the file changes to the secondary memory for permanenetly saving) , i+o se iostream -> fstream
+ ios_base -> ios , i istream then-> iftream(input file stream to take the file from secondary memory to RAM to make updation on the file) , o for ostream then-> ofstream(output file stream which is used to push the file changes to the secondary memory for permanenetly saving) , i+o se iostream then-> fstream
                               
 
              
