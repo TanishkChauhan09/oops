@@ -368,7 +368,21 @@ to catch      |                         try:                          |
 |
 |
 |
+ C++ File Handling: ----------------------------
+                => If you want to do manual tasks of files automatically then file Handling comes into place.
+                => Our codes are executed in RAM & if you want to store the result for later use. then you have to store it in secondary Memory
 
+  |
+   File handling is used to store data permanently in a computer. Using file handling we can store our data in secondary memory (Hard disk).
+   How to achieve the File Handling:For achieving file handling we need to follow the following steps:-
+      STEP 1-Naming a file
+      STEP 2-Opening a file !! Complete Code Implementation STEP 3-Writing data into the file
+      ofstream ios::out
+      STEP 4-Reading data from the file
+      STEP 5-Closing a file.
+|
+|
+  ios , i istream then iftream , o for ostream then ofstream , i+o se iostream -> fstream
                               
 
              
