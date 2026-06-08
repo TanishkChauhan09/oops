@@ -21,5 +21,5 @@ int main(){
 //            Exception Occured due to line 7 : std :: bad_alloc
 
 
-// i can also write : throw("Divide is not possible as division by 0 is not possible");
+// i can also write : throw runtime_error("Divide is not possible as division by 0 is not possible"); in this case in catch i have to write because runtime_error class will return object so : catch(const exception &e){} like this
 //       as well as, : throw "Divide is not possible as division by 0 is not possible";       
