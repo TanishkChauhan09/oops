@@ -11,6 +11,7 @@ int main(){
 
     catch(const exception &e) // exception is a class , try jisko error throw kregi wo yhi class hai , ab wo(exception) class object dega catch me jisko maine ek 'e' naam ka variable jo exception type ka hai usme le liya hai
     {
+        // i can also write : const bad_alloc &e , tb bhi shi chalega
         cout<<"Error occured: "<<e.what()<<endl;  // e object hone se exception class ke method ko call krskta hoon toh what() whi method hai jisme by default kuch return ho rha hoga 
         return 0;
     }
