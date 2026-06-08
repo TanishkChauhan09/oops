@@ -15,6 +15,14 @@ int main(){
         cout<<"Error occured: "<<e.what()<<endl;  // e object hone se exception class ke method ko call krskta hoon toh what() whi method hai jisme by default kuch return ho rha hoga 
         return 0;
     }
+    catch(const runtime_error &e)
+    {
+        cout<<"Error: "<<e.what()<<endl;
+    }
+    catch(const bad_alloc &e)
+    {
+        cout<<"Error: "<<e.what()<<endl;
+    }
 }
 
 // Output is: 
@@ -23,3 +31,7 @@ int main(){
 
 // i can also write : throw runtime_error("Divide is not possible as division by 0 is not possible"); in this case in catch i have to write because runtime_error class will return object so : catch(const exception &e){cout<<"Error:"<<e.what()<<endl} like this, and parent pointer can handle child class oject so runtime_error class ka object , parent(exception) class ka object handle kr lega
 //       as well as, : throw "Divide is not possible as division by 0 is not possible";       
+
+
+
+//  we can also write multiple catch block together to handle different types of error bacuse try me se kisi bhi type ki error throw hoskti hai
