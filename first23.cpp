@@ -71,7 +71,7 @@ int main(){
         c->deposit(100);
         c->getbalance();
         c->withdraw(-100);
-        c->deposit(200);  // this will not run beacuse jaise the withdraw wale pe error throw hogi toh try usko ek exception class pe throw krega and wha se wo catch pr aayega toh char type ki error throw ho rhi hai isiliye 'e ek pointer hai jo char type ki value ko point kr rha hai' so usko hmne print bhi kra diya hai 
+        c->deposit(200);  // this will not run beacuse jaise the withdraw wale se error throw hogi toh try usko ek exception class pe throw krega and wha se wo catch pr aayega toh char type ki error throw ho rhi hai isiliye 'e ek pointer hai jo char type ki value ko point kr rha hai' so usko hmne print bhi kra diya hai 
     }
     catch(const char *e){
        cout<<"Error occured: "<<e<<endl;
