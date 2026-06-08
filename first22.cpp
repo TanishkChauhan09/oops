@@ -75,6 +75,8 @@ int main(){
     c->withdraw(-100);
     c->getbalance();
 
+    delete c;
+
 }
 
 // Output is: 
