@@ -77,6 +77,10 @@ int main(){
        cout<<"Error occured: "<<e<<endl;
     }
     
+    delete c;
+    delete c2;
+
+    return 0;
 
 }
 
