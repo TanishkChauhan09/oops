@@ -19,3 +19,7 @@ int main(){
 
 // Output is: 
 //            Exception Occured due to line 7 : std :: bad_alloc
+
+
+// i can also write : throw("Divide is not possible as division by 0 is not possible");
+//       as well as, : throw "Divide is not possible as division by 0 is not possible";       
