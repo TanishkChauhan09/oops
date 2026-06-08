@@ -319,8 +319,39 @@ to catch      |                         try:                          |
 |
 |
 |
-
-                                      
+     Agar aap parent class ke variable ko child class ke constructor se set karna chahte hain, to generally super() ka use kiya jata hai.
+             class Parent {
+             String name;
+|        
+             Parent(String name) {
+                 this.name = name;
+             }
+         }
+|       
+         class Child extends Parent {
+|        
+             Child(String name) {
+                 super(name);   // Parent ke constructor ko call karke variable set kiya
+             }
+             // also Child(string name) : Parent(name);
+|        
+             void display() {
+                 System.out.println(name);
+             }
+         }
+|        
+         public class Main {
+             public static void main(String[] args) {
+                 Child c = new Child("Rahul");
+                 c.display();
+             }
+         }
+|
+|
+|
+|
+|
+|
     
 
                               
