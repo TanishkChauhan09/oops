@@ -333,7 +333,7 @@ to catch      |                         try:                          |
              Child(String name) {
                  super(name);   // Parent ke constructor ko call karke variable set kiya
              }
-             // also Child(string name) : Parent(name);
+             // also Child(string name) : Parent(name){}; // remember brackets
 |        
              void display() {
                  System.out.println(name);
@@ -348,11 +348,20 @@ to catch      |                         try:                          |
          }
 |
 |
+|     Agar Parent ka variable protected ya public ho : Child constructor me directly bhi set kar sakte hain:
+          class Parent {
+             protected int age;
+         }
+|         
+         class Child extends Parent {
+ |        
+             Child(int age) {
+                 this.age = age;   // Parent ka variable set
+             }
+         }
 |
 |
 |
-|
-    
 
                               
 
