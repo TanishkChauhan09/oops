@@ -39,7 +39,7 @@ int main(){
     }
     // Output is : 
     //            Enter two numbers: 6 0
-    //            Error occured: Divide is not possible as denominator is 0
+    //            Error occured: Divide is not possible as denominator is 0.
 
 }
 
