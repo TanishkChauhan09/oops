@@ -76,3 +76,18 @@ int main(){
     c->getbalance();
 
 }
+
+// Output is: 
+                // Balance is: 5000
+                // 200 deposited/credited successfully
+                // Balance is: 5200
+                // 2200 is debited successfully
+                // Balance is: 3000
+                // 100 deposited/credited successfully
+                // Balance is: 3100
+                // 100 is debited successfully
+                // Balance is: 3000
+                // Amount deposited should be greater than 0
+                // Balance is: 3000
+                // Debited amount should be greater than 0
+                // Balance is: 3000
